@@ -1,0 +1,10 @@
+{
+	"name": "Event Logger",
+	"description": "Stores a record of user activity in the database and/or log files",
+	"version": "",
+	"date": "",
+	"author": "",
+	"author_uri": "",
+	"license": "",
+	"min_q2a": ""
+}

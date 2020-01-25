@@ -1,0 +1,11 @@
+{
+	"name": "Facebook Login",
+	"description": "Allows users to log in via Facebook",
+	"version": "",
+	"date": "",
+	"author": "",
+	"author_uri": "",
+	"license": "",
+	"min_q2a": "",
+	"load_order": "after_db_init"
+}

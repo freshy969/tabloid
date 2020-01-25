@@ -1,0 +1,11 @@
+{
+	"name": "Mouseover Layer",
+	"description": "Shows question content on mouse over in question lists",
+	"version": "",
+	"date": "",
+	"author": "",
+	"author_uri": "",
+	"license": "",
+	"min_q2a": "",
+	"load_order": "after_db_init"
+}

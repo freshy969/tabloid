@@ -1,0 +1,44 @@
+/*
+    Violete Vintage Theme
+    http://vintage.im
+*/
+
+body { background: #f2f0ff !important; color: #235; }
+
+.qam-main-nav-wrapper { background: #235; color: #f8f6f2; }
+.qa-nav-main-link { background-color: #235; }
+.qam-account-items { background-color: #235; }
+.qa-nav-main-link.qa-nav-main-selected { background: #446688; }
+.qa-nav-sub-link.qa-nav-sub-selected, .qa-nav-sub-link:visited.qa-nav-sub-selected, .qa-nav-sub-link:hover.qa-nav-sub-selected { background-color: #446688; color: #fff; }
+
+.qa-logo a, .qa-logo a:visited { color: #f8f6f2; }
+.qa-nav-main-item a, .qa-nav-main-item a:visited { color: #F7F4E9; }
+
+.qa-sidebar, .qa-sidebar.wet-asphalt { background: #6bd; }
+
+.qa-form-light-button { background-color: #6bd; color: #f8f6f2; }
+
+a { color: #3288ae; }
+a:visited { color: #3288ae; }
+
+.qa-q-item-title a { color: #3288ae; }
+.qa-q-item-title a:hover, .qa-q-item-title a:active, .qa-q-item-title a:focus, .qa-q-item-title a:visited { color: #3288ae; }
+
+.qa-tag-link, .qa-widget-side .qa-q-view-tag-item { background: #f8f6f2; color: #235 !important; }
+
+code, samp, kbd { color: #235; background-color: #f8f6f2; }
+pre, blockquote { background-color: #f8f6f2; border-left: 2px solid #EBA63F; }
+
+h1, h1 a { color: #235; opacity: 1; }
+h1 a:hover, h1 a:focus, h1 a:visited { color: #235; opacity: 1; }
+
+#a_list_title { background: #6bd; color: #f8f6f2; }
+
+.qa-suggest-next { background: #235; color: #f8f6f2; }
+
+.qa-top-users-label .qa-user-link { background-color: #d26262; }
+.qa-top-users-label .qa-user-link:before { display: none }
+.qa-top-users-label .qa-user-link:after { display: none; }
+
+.qa-page-links-item a:hover, .qa-page-links-item a:focus { background: #235; color: #fff; }
+.qa-page-selected { background: #235; color: #fff; }

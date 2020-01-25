@@ -1,0 +1,11 @@
+{
+	"name": "Tag Cloud Widget",
+	"description": "Provides a list of tags with size indicating popularity",
+	"version": "",
+	"date": "",
+	"author": "",
+	"author_uri": "",
+	"license": "",
+	"min_q2a": "",
+	"load_order": "after_db_init"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "zen",
+	"description": "Base theme for Tabloid CMS",
+	"version": "1.0",
+	"date": "2018-05-09",
+	"author": "",
+	"author_uri": "---",
+	"license": "Tabloid License",
+	"min_q2a": "1.8"
+}
