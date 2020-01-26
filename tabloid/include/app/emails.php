@@ -111,6 +111,7 @@ function send_notification($userid, $email, $handle, $subject, $body, $subs, $ht
  */
 function send_email($params)
 {
+	//var_dump($params);
 	//if (qa_to_override(__FUNCTION__)) { $args=func_get_args(); return qa_call_override(__FUNCTION__, $args); }
 
 	// @error_log(print_r($params, true));
@@ -120,12 +121,18 @@ function send_email($params)
 	$mailer = new PHPMailer();
 	$mailer->CharSet = 'utf-8';
 
+	$mailer->SMTPDebug = SMTP::DEBUG_CONNECTION;
+	$mailer->Debugoutput = 'echo';
+
 	$mailer->From = $params['fromemail'];
-	$mailer->Sender = $params['fromemail'];
-	$mailer->FromName = $params['fromname'];
-	$mailer->addAddress($params['toemail'], $params['toname']);
+	//$mailer->Sender = $params['fromemail'];
+	//$mailer->FromName = $params['fromname'];
+	$mailer->FromName = '';
+	//$mailer->addAddress($params['toemail'], $params['toname']);
+	$mailer->addAddress($params['toemail'], '');
 	if (!empty($params['replytoemail'])) {
-		$mailer->addReplyTo($params['replytoemail'], $params['replytoname']);
+		//$mailer->addReplyTo($params['replytoemail'], $params['replytoname']);
+		$mailer->addReplyTo($params['replytoemail'], '');
 	}
 	$mailer->Subject = $params['subject'];
 	$mailer->Body = $params['body'];
@@ -163,8 +170,9 @@ function send_email($params)
 	}
 
 	$send_status = $mailer->send();
+
 	if (!$send_status) {
-		@error_log('PHP Tabloid email send error: ' . $mailer->ErrorInfo);
+		@error_log('Tabloid email send error: ' . $mailer->ErrorInfo);
 	}
 	return $send_status;
 }

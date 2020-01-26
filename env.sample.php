@@ -15,7 +15,7 @@
 
     // SMTP 
     const USE_SMTP  = true;
-    const SMTP_SECURE = true;
+    const SMTP_SECURE = 'ssl';
     const SMTP_HOST = '';
     const SMTP_PORT = '465';
     const SMTP_USER = '';
