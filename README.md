@@ -9,11 +9,14 @@ Whatever community website would you like to launch? Tabloid is the answer!
 1. Create a MySQL database
 2. Create a MySQL user with full permissions for that database
 3. Execute install.sql on our fresh database
-4. Rename env.sample.php to env.php and edit the env vars
+4. Rename env.sample.php to env.php and confugure DB and SMTP access there
 5. Place all the Tabloid files on your server
 6. Create folders /upload and /cache inside of /public with 777 permissions
 7. In case of Nginx, use config below. In case of Apache - there are .htaccess already
-8. Open your newly deployed Tabloid and enjoy :)
+8. Login into Tabloid admin with default credentials: Tabloid / password
+9. Set up website preferences at admin panel 
+10. Post content, comment, vote, build community... again and again
+11. Enjoy after all :)
 
 More detailed installation instructions here: http://www.tabloid.dev/
 
